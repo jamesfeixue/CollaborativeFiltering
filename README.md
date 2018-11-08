@@ -54,7 +54,7 @@ Another accuracy method which we thought worked better for this specific model w
 
 ### Parameter Testing
 We used the latent factor spaces as one of our parameters to see how it impacted the accuracy measure.  Using the top 10 recommendation comparison measure, we were able to see a very small factor space was not as good as a medium size (2 factors as compared to 6 factors).  As we went increased the factor spaces, we hit a maximum and then started seeing a decline in accuracy as the factors got too large.  See the figure below which shows you which number of latent factor spaces worked better as compared to others.
-(https://github.com/muftaye/personalization_project/blob/master/models/factorsvsaccuracy.png)
+![alt text](https://github.com/muftaye/personalization_project/blob/master/models/factorsvsaccuracy.png "Factors vs Accuracy")
 
 ### Observations Using What We Learned
 Using what we learned, such as using 6 factors as what appears to be most accurate with the test data and 2000 iterations is better than 100, we could see how the recommendations were looking in the real example.  Here is a sample finding that proves our intuition:  
